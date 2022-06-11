@@ -17,5 +17,5 @@ const today=new Date();
 const month = months[today.getMonth()];
 const timeDisplayEl = document.createElement('span');
 timeDisplayEl.innerHTML= `${today.getDate()} ${month} ${today.getFullYear()}`;
-timeDisplayEl.style='color: red';
+timeDisplayEl.classList.add("highlighted");
 container.append(timeDisplayEl);
