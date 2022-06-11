@@ -1,5 +1,5 @@
-:root{
-    --main-color: #383f4f;
+:root {
+  --main-color: #383f4f;
 }
 * {
   box-sizing: border-box;
@@ -82,6 +82,22 @@ summary {
   border: 2px solid var(--main-color);
   padding: 1rem;
 }
+.wiki {
+  background-color: #a1a4ae;
+  color: white;
+}
+.wiki a {
+  color: wheat;
+  text-decoration: none;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 2px;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+.wiki a:hover {
+  background-color: red;
+}
 #research {
   background: #96a2be30;
   border-radius: 5px;
@@ -138,4 +154,3 @@ summary {
     margin: 0;
   }
 }
-
